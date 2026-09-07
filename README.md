@@ -35,6 +35,10 @@ Experiment_P2_LLM.ipynb
 
 The source code associated with the PHOND study is publicly available in this repository.
 
+The version associated with the paper is permanently archived on Zenodo:
+
+**DOI:** https://doi.org/10.5281/zenodo.22642668
+
 ## Dataset Citation
 
 If you use the **PHOND dataset** in your research, please cite the associated PHOND paper once it is published.
