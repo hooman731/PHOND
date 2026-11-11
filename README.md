@@ -56,10 +56,6 @@ python finetune_parsbert.py --csv phond.csv --edges edges.csv
 python finetune_bertweetfa.py --csv phond.csv --edges edges.csv
 ```
 
-`homophily_pps.py` takes the file of the PPS stage. `sample.csv` holds the 400 texts of Section 4.4 with the columns `Id`, `Text`, `classification` and `hate_class`. On its first run, `prompting_ablation.py` installs the library versions of the annotation encoder in a separate folder. Every setting in the `CONFIG` of a script can be changed on the command line, and `--help` lists them.
-
-The OpenRouter key goes in `API_KEY` in `Tag_Analysis.ipynb`. `Experiment_P2_LLM.ipynb` reads it from Colab Secrets as `OPENROUTER_API_KEY`, and `prompting_ablation.py` reads it from the environment variable of the same name or from Colab Secrets.
-
 ## Code Availability
 
 The source code associated with the PHOND study is publicly available in this repository.
