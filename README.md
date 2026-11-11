@@ -48,7 +48,6 @@ For Table 7, set the model name in `query_gpt` to one of the four models, as nam
 The other experiments:
 
 ```bash
-python route_counts.py keyword.csv reports.csv pps.csv --final phond.csv
 python prompting_ablation.py --eval sample.csv
 python homophily.py --csv phond.csv --edges edges.csv
 python homophily_pps.py --csv phond.csv --edges edges.csv --pps pps.csv
